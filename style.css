@@ -7,10 +7,40 @@ header {
     color: #E8E8EC;
     height: 90px;
     width: 100%;
+    border-radius: 100px;
     display: flex;
-    flex-direction: column;
+    position: sticky;
+    flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
+}
+
+.logo {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+
+.logo img{
+    height: 75px;
+    width: auto;
+}
+
+nav {
+    flex: 8;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+nav a {
+    text-decoration: none;
+    color: #E8E8EC;
+    font-family: 'Nunito Sans';
+    font-weight: 700;
+    font-size: 20px;
+
 }
 
 footer {
@@ -19,44 +49,53 @@ footer {
     height: 260px;
     width: 100%;
     display: flex;
+    position: static;
     flex-direction: column;
     align-items: center;
 }
 
 h1 {
+    width: 100%;
     font-family: 'Zilla Slab';
     font-weight: 700;
     font-size: 90px;
+    margin: 0;
 }
 
 h2 {
+    width: 100%;
     font-family: 'Fira Sans';
     font-weight: 600;
     font-size: 64px;
+    margin: 0;
 }
 
 h3 {
     font-family: 'zilla Slab';
     font-weight: 600;
     font-size: 48px;
+    margin: 0;
 }
 
 h4 {
     font-family: 'Fira Sans';
     font-weight: 600;
     font-size: 36px;
+    margin: 0;
 }
 
 h5 {
     font-family: 'zilla Slab';
     font-weight: 600;
     font-size: 32px;
+    margin: 0;
 }
 
 h6 {
     font-family: 'Fira Sans';
     font-weight: 600;
     font-size: 24px;
+    margin: o;
 }
 
 p {
@@ -76,6 +115,25 @@ p {
     font-family: 'Fira Sans';
     font-weight: 700;
     font-size: 26px;
+}
+
+.cta-button a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.hero-section {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: 100%;
+    margin: 30px 0px;
+}
+
+.hero-section h1, .hero-section h2{
+    text-align: center;
+    background-color: #00000030;
+    color: #FFFFFF;
 }
 
 @media screen and (max-width: 850px) {
