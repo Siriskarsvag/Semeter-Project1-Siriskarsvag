@@ -138,7 +138,7 @@ p {
 .hero-section {
     display: flex;
     flex-direction: column;
-    height: auto;
+    height: 360px;
     width: 100%;
     margin: 30px 0px;
 }
