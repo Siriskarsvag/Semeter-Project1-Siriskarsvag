@@ -54,6 +54,18 @@ footer {
     align-items: center;
 }
 
+.footer-content {
+    display: flex;
+    flex-direction: row;
+}
+
+.footer-info {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    flex-wrap: wrap;
+}
+
 h1 {
     width: 100%;
     font-family: 'Zilla Slab';
@@ -95,13 +107,14 @@ h6 {
     font-family: 'Fira Sans';
     font-weight: 600;
     font-size: 24px;
-    margin: o;
+    margin: 0;
 }
 
 p {
     font-family: 'Nunito Sans';
     font-weight: 400;
     font-size: 20px;
+    margin: 0;
 }
 
 .cta-button {
