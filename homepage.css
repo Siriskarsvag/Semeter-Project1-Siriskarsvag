@@ -2,22 +2,29 @@
     background-image: url(images/lab-512503_1920.jpg);
     background-size: cover;
     background-position: center;
+
+    align-items: center;
+    justify-content: center;
 }
 
 .event-section {
     display: flex;
+    flex-wrap: nowrap;
     flex-direction: column;
-    height: 400px;
+    height: auto;
     width: 100%;
+    margin: 30px 100px;
 }
 
 .event-cards {
     display: flex;
-    flex-direction: column;
+    flex-direction: column;    
+    background-color: #FFFFFF;
+    border: solid 2px #243D67;
 }
 
 .event-cards img {
-    height: 400px;
+    height: auto;
     width: 100%;
 }
 
@@ -37,5 +44,47 @@
 }
 
 .active-btn {
-    border: solid 2px #FFFFFF;
+    background-color: #00000050;   
+    border: solid 2px #000000;
+}
+
+/* explorers section */
+
+.explorers-section {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+}
+
+.explorer-cards {
+    background-color: #243D67;
+    border: solid 2px #E8E8EC;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0px;
+}
+
+.explorer-cards img {
+    width: 175px;
+    height: 185px;
+    border-radius: 100%;
+    border: 4px solid #E8E8EC;
+    margin: 20px;
+    flex: 1;
+}
+
+.explorer-info {
+    flex:3;
+    color: #E8E8EC;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: auto;
+    padding: 20px 0px;
+}
+
+.explorer-info h4 {
+    padding: 0px 0px 10px 0px;
 }

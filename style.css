@@ -47,9 +47,10 @@ nav a {
 
 /*Main styling*/
 
-.main-container{
+.main-container {
     display: flex;
     flex-direction: column;
+    flex-wrap: nowrap;
     align-items: center;
     justify-content: center;
     width: 100%;
@@ -61,7 +62,7 @@ nav a {
 footer {
     background-color: #243D67;
     color: #E8E8EC;
-    height: 260px;
+    height: 280px;
     width: 100%;
     display: flex;
     position: static;
@@ -69,9 +70,17 @@ footer {
     align-items: center;
 }
 
+footer h5 {
+    flex: 1;
+    margin: 0px 0px 10px 0px;
+}
+
 .footer-content {
     display: flex;
     flex-direction: row;
+    flex: 9;
+    width: 100%;
+    align-items: flex-start;
 }
 
 .footer-info {
@@ -79,6 +88,7 @@ footer {
     flex-direction: column;
     flex: 1;
     flex-wrap: wrap;
+    align-items: center;
 }
 
 /*Components styling*/
@@ -97,6 +107,7 @@ h2 {
     font-weight: 600;
     font-size: 64px;
     margin: 0;
+    font-style: italic;
 }
 
 h3 {
@@ -111,6 +122,7 @@ h4 {
     font-weight: 600;
     font-size: 36px;
     margin: 0;
+    font-style: italic;
 }
 
 h5 {
@@ -125,6 +137,7 @@ h6 {
     font-weight: 600;
     font-size: 24px;
     margin: 0;
+    text-decoration: underline;
 }
 
 p {
@@ -141,10 +154,16 @@ p {
     border-radius: 100px;
     background-color: #FFA158;
     color: #FFFFFF;
-    text-shadow: 2px #000000;
+    text-shadow: 2px 2px #000000;
     font-family: 'Fira Sans';
     font-weight: 700;
     font-size: 26px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex: 1;
+    margin: 0px 20px;
 }
 
 .cta-button a {
