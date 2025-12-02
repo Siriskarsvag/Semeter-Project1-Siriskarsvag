@@ -2,11 +2,37 @@
     background-color: #FFA158;
 }
 
-.get-involved-section {}
+.get-involved-section {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
 
-.involved-options {}
+.involved-options {
+    display: flex;
+    flex-direction: row;
+    background-color: #243D67;
+    border-radius: 100px;
+    padding: 20px;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 325px;
+    width: 100%;
+}
 
-.involved-info {}
+.involved-info {
+    flex: 3;
+    border-radius: 100px;
+}
 
-.involved-img {}
+.involved-img {
+    flex: 1;
+    border-radius: 100px;
+    width: 390px;
+    height: 270px;
+}
 
+.involved-img img {
+    width: 390px;
+    border-radius: 100px;
+}
