@@ -47,14 +47,18 @@ nav a {
 
 /*Main styling*/
 
+main {
+    margin: 50px 0px;
+}
+
 .main-container {
     display: flex;
+    gap: 20px;
     flex-direction: column;
     flex-wrap: nowrap;
     align-items: center;
     justify-content: center;
     width: 100%;
-    margin: 50px 0px;
 }
 
 /*Footer styling*/
@@ -99,6 +103,7 @@ h1 {
     font-weight: 700;
     font-size: 90px;
     margin: 0;
+    color: #E8E8EC;
 }
 
 h2 {
@@ -108,6 +113,7 @@ h2 {
     font-size: 64px;
     margin: 0;
     font-style: italic;
+    color: #E8E8EC;
 }
 
 h3 {
@@ -115,6 +121,7 @@ h3 {
     font-weight: 600;
     font-size: 48px;
     margin: 0;
+    color: #E8E8EC;
 }
 
 h4 {
@@ -123,6 +130,7 @@ h4 {
     font-size: 36px;
     margin: 0;
     font-style: italic;
+    color: #E8E8EC;
 }
 
 h5 {
@@ -130,6 +138,7 @@ h5 {
     font-weight: 600;
     font-size: 32px;
     margin: 0;
+    color: #E8E8EC;
 }
 
 h6 {
@@ -138,6 +147,7 @@ h6 {
     font-size: 24px;
     margin: 0;
     text-decoration: underline;
+    color: #E8E8EC;
 }
 
 p {
@@ -145,6 +155,7 @@ p {
     font-weight: 400;
     font-size: 20px;
     margin: 0;
+    color: #E8E8EC;
 }
 
 .cta-button {
@@ -162,7 +173,6 @@ p {
     justify-content: center;
     align-items: center;
     flex-wrap: nowrap;
-    flex: 1;
     margin: 0px 20px;
 }
 

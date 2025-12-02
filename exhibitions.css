@@ -4,9 +4,33 @@
     background-position: center;
 }
 
-.exhibitions-section {}
+.exhibitions-section {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
 
-.exhibition-img {}
+.exhibition-img {
+    flex: 3;
+    height: 525px;
+    width: 900px
 
-.exhibition-info {}
+}
+
+.exhibition-img img {
+    height: 100%;
+    width: 100%;
+    border-radius: 100px;
+}
+
+.exhibition-info {
+    flex: 2;
+    background-color: #243D67;
+    border-radius: 100px;
+    padding: 10px 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
 

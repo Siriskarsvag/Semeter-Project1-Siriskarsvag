@@ -13,7 +13,7 @@
     flex-direction: column;
     height: auto;
     width: 100%;
-    margin: 30px 100px;
+    margin: 0px 100px;
 }
 
 .event-cards {
@@ -21,6 +21,10 @@
     flex-direction: column;    
     background-color: #FFFFFF;
     border: solid 2px #243D67;
+}
+
+.event-cards h2 {
+    color: #000000;
 }
 
 .event-cards img {
@@ -77,7 +81,6 @@
 
 .explorer-info {
     flex:3;
-    color: #E8E8EC;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
