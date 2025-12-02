@@ -1,3 +1,24 @@
 .contact-hero {
     background-color: #FFA158;
+    height: 110px;
+}
+
+.contact-section {
+    background-color: #243D67;
+    border-radius: 100px;
+}
+
+.contact-section form {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+
+.contact-section form input, .contact-section select, .contact-section form textarea {
+    width: 100%;
+    border-radius: 30px;
+}
+
+main h3 {
+    color: #000000;
 }
