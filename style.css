@@ -17,6 +17,10 @@ header {
     justify-content: space-evenly;
 }
 
+header label, header input {
+    display: none;
+}
+
 .logo {
     flex: 1;
     display: flex;
@@ -175,6 +179,7 @@ p {
     align-items: center;
     flex-wrap: nowrap;
     margin: 0px 20px;
+    margin-top: 20px;
 }
 
 .cta-button a {
@@ -199,6 +204,46 @@ p {
 }
 
 @media screen and (max-width: 850px) {
+
+    header label, header input {
+        display: flex;
+        flex: 2;
+        align-items: center;
+        justify-content: center;
+        padding: 10px;
+    }
+
+    #hamburger-menu {
+        display: none;
+    }
+
+    nav {
+        display: none;
+        position: absolute;
+        top: 80px;
+        left: 0px;
+        background-color: #E8E8EC;
+        border-radius: 30px;
+        border: 5px solid #243D67;
+    }
+
+    nav a {
+        color: #243D67;
+        padding: 10px;
+        text-decoration: underline;
+    }
+
+    #hamburger-menu:checked ~ nav {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .logo {
+        flex: 4;
+        padding: 0px 0px 0px 20px;
+        justify-content: flex-start;
+    }
+
     footer {
         height: 165px;
     }
@@ -235,6 +280,5 @@ p {
     width: 90px;
     height: 45px;
     font-size: 14px;
-}
-    
+    } 
 }

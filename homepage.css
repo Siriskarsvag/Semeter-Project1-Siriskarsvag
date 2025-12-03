@@ -20,7 +20,7 @@
     display: flex;
     flex-direction: column;    
     background-color: #FFFFFF;
-    border: solid 2px #243D67;
+    outline: solid 2px #243D67;
 }
 
 .event-cards h2 {
@@ -49,7 +49,7 @@
 
 .active-btn {
     background-color: #00000050;   
-    border: solid 2px #000000;
+    outline: solid 2px #000000;
 }
 
 /* explorers section */
@@ -94,4 +94,12 @@
 
 .explorer-info h4 {
     padding: 0px 0px 10px 0px;
+}
+
+@media screen and (max-width: 850px) {
+    .event-section {
+        width: 280px;
+        height: 370px;
+    }
+    
 }

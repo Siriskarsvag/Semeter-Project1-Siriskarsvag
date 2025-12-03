@@ -13,7 +13,7 @@
 .exhibition-img {
     flex: 3;
     height: 520px;
-    border: 4px solid #243D67;
+    outline: 4px solid #243D67;
     border-radius: 100px;
 }
 
