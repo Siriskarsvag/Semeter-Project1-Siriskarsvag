@@ -4,19 +4,46 @@
 }
 
 .contact-section {
-    background-color: #243D67;
-    border-radius: 100px;
+    display: flex;
+    
 }
 
 .contact-section form {
+    background-color: #243D67;
+    border-radius: 50px;
+    padding: 50px 100px;
     display: flex;
     flex-direction: column;
     width: 80%;
+    height: auto;
 }
 
 .contact-section form input, .contact-section select, .contact-section form textarea {
     width: 100%;
     border-radius: 30px;
+    padding-left: 20px;
+}
+
+.contact-section fieldset {
+    display: flex;
+    border-style: none;
+    padding: 0px;
+    width: 100%;
+}
+
+.contact-section label {
+    color: #e8e8ec;
+    font-family: 'Fira Sans';
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.contact-section form input, .contact-section select {
+    height: 25px;
+}
+
+.contact-section form textarea {
+    height: 105px;
 }
 
 main h3 {

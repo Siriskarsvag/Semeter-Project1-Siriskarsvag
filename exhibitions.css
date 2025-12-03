@@ -12,12 +12,13 @@
 
 .exhibition-img {
     flex: 3;
-    height: 525px;
-    width: 900px
+    height: 520px;
+    border: 4px solid #243D67;
+    border-radius: 100px;
 }
 
 .exhibition-img img {
-    height: 100%;
+    height: inherit;
     width: 100%;
     border-radius: 100px;
 }
@@ -26,6 +27,8 @@
     flex: 2;
     background-color: #243D67;
     border-radius: 100px;
+    height: inherit;
+    width: 100%;
     padding: 10px 30px;
     display: flex;
     flex-direction: column;

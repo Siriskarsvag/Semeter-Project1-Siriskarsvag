@@ -14,26 +14,38 @@
     flex-direction: row;
     background-color: #243D67;
     border-radius: 100px;
-    padding: 20px;
-    justify-content: space-evenly;
-    align-items: center;
-    height: 325px;
+    height: auto;
     width: 100%;
 }
 
 .involved-info {
     flex: 3;
     border-radius: 100px;
+    padding: 20px 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
 }
 
 .involved-img {
     flex: 1;
     border-radius: 100px;
-    width: 390px;
-    height: 270px;
+    width: auto;
+    height: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .involved-img img {
-    width: 390px;
+    width: inherit;
+    height: 270px;
     border-radius: 100px;
+    margin: 20px;
+}
+
+.involved-info > .cta-button {
+    align-self: center;
+    margin-top: 20px;
 }

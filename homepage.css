@@ -60,6 +60,10 @@
     flex-direction: column;
 }
 
+.explorers-section h3 {
+    color:#000000;
+}
+
 .explorer-cards {
     background-color: #243D67;
     border: solid 2px #E8E8EC;
@@ -71,8 +75,8 @@
 }
 
 .explorer-cards img {
-    width: 175px;
-    height: 185px;
+    width: 185px;
+    height: auto;
     border-radius: 100%;
     border: 4px solid #E8E8EC;
     margin: 20px;
