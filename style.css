@@ -93,6 +93,7 @@ footer h5 {
     flex: 1;
     flex-wrap: wrap;
     align-items: center;
+    text-align: center;
 }
 
 /*Components styling*/
