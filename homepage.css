@@ -13,22 +13,26 @@
     flex-direction: column;
     height: auto;
     width: 100%;
+    height: auto;
     margin: 0px 100px;
 }
 
 .event-cards {
+    height: auto;
+    width: 100%;
     display: flex;
     flex-direction: column;    
     background-color: #FFFFFF;
     outline: solid 2px #243D67;
 }
 
-.event-cards h2 {
+.event-section h2, .event-section h3 {
     color: #000000;
 }
 
 .event-cards img {
-    height: auto;
+    object-fit: cover;
+    height: 330px;
     width: 100%;
 }
 
@@ -55,6 +59,8 @@
 /* explorers section */
 
 .explorers-section {
+    width: 100%;
+    margin: 0px 10px;
     display: flex;
     flex-wrap: nowrap;
     flex-direction: column;
@@ -69,7 +75,7 @@
     border: solid 2px #E8E8EC;
     display: flex;
     flex-direction: row;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
     padding: 10px 0px;
 }
@@ -84,7 +90,7 @@
 }
 
 .explorer-info {
-    flex:3;
+    flex: 3;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -98,8 +104,20 @@
 
 @media screen and (max-width: 850px) {
     .event-section {
+        margin: 40px 0px;
         width: 280px;
         height: 370px;
     }
-    
+
+    .explorers-section {
+        margin: 0px;
+    }
+
+    .explorer-cards img {
+        width: 85px;
+    }
+
+    .cta-button {
+        align-self: flex-start;
+    }
 }
