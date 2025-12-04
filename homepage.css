@@ -42,6 +42,7 @@
     justify-content: center;
     align-items: center;
     gap: 15px;
+    padding: 10px;
 }
 
 .btn {
@@ -106,7 +107,7 @@
     .event-section {
         margin: 40px 0px;
         width: 280px;
-        height: 370px;
+        height: auto;
     }
 
     .explorers-section {
@@ -119,5 +120,10 @@
 
     .cta-button {
         align-self: flex-start;
+    }
+
+    .btn {
+        width: 12px;
+        height: 12px;
     }
 }

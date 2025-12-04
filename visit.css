@@ -68,22 +68,23 @@
     border-radius: 100px;
     width: 100%;
     height: 400px;
+    display: flex;
+    align-items: center;
 }
 
 .afs-container h3 {
-    background-color: #00000050;
-    width: 100%;
-    height: 100%;
-    border-radius: 100px 100px 100px 100px;
-    flex: 1;
+    width: 60%;
+    height: auto;
+    text-shadow: 10px 10px 10px black;
     text-align: center;
     padding-top: 20px;
+    background-color: #00000070;
 }
+
 .afs-container p, .afs-container a {
     background-color: #00000070;
     width: 100%;
     height: 100%;
-    flex: 1;
     border-radius: 0px 0px 100px 100px;
     text-align: center;
     display: none;
@@ -119,4 +120,40 @@
     background-position: center;
     display: flex;
     flex-direction: column;
+}
+
+@media screen and (max-width: 850px) {
+    .location-open-section{
+        flex-direction: row;
+        gap: 0px;
+    }
+
+    .loc-open-container {
+        height: 180px;
+        padding: 10px 0px;
+    }
+
+    .loc {
+        border-radius: 100px 0px 0px 100px;
+    }
+
+    .open {
+        border-radius: 0px 100px 100px 0px;
+    }
+
+    .afs-container {
+        height: 180px;
+    }
+
+    .food {
+        display: none;
+    }
+
+    .shop {
+     display: none;   
+    }
+
+    .afs-container a, .afs-container p {
+        display: block;
+    }
 }
