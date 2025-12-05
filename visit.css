@@ -72,25 +72,31 @@
     align-items: center;
 }
 
-.afs-container h3 {
-    width: 60%;
-    height: auto;
-    text-shadow: 10px 10px 10px black;
-    text-align: center;
-    padding-top: 20px;
+.afs-info {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    border-radius: 100px;
+    align-items: center;
     background-color: #00000070;
 }
 
-.afs-container p, .afs-container a {
-    background-color: #00000070;
+.afs-info h3 {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.afs-info p, .afs-info a {
     width: 100%;
     height: 100%;
-    border-radius: 0px 0px 100px 100px;
     text-align: center;
     display: none;
 }
 
-.afs-container:hover p, .afs-container:hover a {
+.afs-info:hover p, .afs-info:hover a {
     display: block;
 }
 

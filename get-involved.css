@@ -49,3 +49,37 @@
     align-self: center;
     margin-top: 20px;
 }
+
+@media screen and (max-width: 850px) {
+   .involved-img {
+        display: none;
+   } 
+
+   .support {
+        background-image: url(images/luke-ellis-craven-400722-small.jpg);
+        background-size: cover;
+        background-position: center;
+   }
+
+   .volunteer {
+        background-image: url(images/roberto-nickson-396152-small.jpg);
+        background-size: cover;
+        background-position: center;
+   }
+
+   .internship {
+        background-image: url(images/mavis-cw-164128-small.jpg);
+        background-size: cover;
+        background-position: center;
+   }
+
+   .involved-info {
+        background-color: #00000050;
+        height: 280px;
+        justify-content: space-around;
+   }
+
+   .get-involved-hero {
+        height: 70px;
+   }
+}

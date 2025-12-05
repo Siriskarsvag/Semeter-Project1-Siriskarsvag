@@ -7,10 +7,12 @@
 .exhibitions-section {
     width: 100%;
     height: auto;
+   border-radius: 30px;
     display: flex;
     flex-direction: row;
     gap: 10px;
     align-items: center;
+
 }
 
 .exhibition-img {
@@ -18,20 +20,20 @@
     height: auto;
     width: 100%;
     outline: 4px solid #243D67;
-    border-radius: 100px;
+    border-radius: 30px;
 }
 
 .exhibition-img img {
     object-fit: cover;
     height: 520px;
     width: 100%;
-    border-radius: 100px;
+    border-radius: 30px;
 }
 
 .exhibition-info {
     flex: 2;
     background-color: #243D67;
-    border-radius: 100px;
+    border-radius: 30px;
     height: 520px;
     width: 100%;
     padding: 10px 30px;
@@ -43,31 +45,60 @@
 }
 
 @media screen and (max-width: 850px) {
-    .exhibition-img img {
-        height: 150px;
-        border-radius: 0px 0px 30px 30px;
-    }
-
     .exhibition-img {
-        flex: 1;
-        border-radius: 0px 0px 30px 30px;
+        display: none;
     }
 
     .exhibitions-section {
-        flex-direction: column-reverse;
-        flex-wrap: wrap;
         gap: 0px;
+        height: 200px;
     }
 
     .exhibition-info {
         gap: 0px;
         padding: 0px;
         flex: 1;
-        border-radius: 30px 30px 0px 0px;
+        height: 100%;
+        background-color: #00000050;
     }
 
-        .exhibition-info p, .exhibition-info h3 {
-            padding: 10px 20px;
-        }
+    .exhibition-info p, .exhibition-info h3 {
+        padding: 10px 20px;
+    }
 
+    .energtica {
+        background-image: url(images/scientific-2040795_1280.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+
+    .cosmo {
+        background-image: url(images/celso-405219.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+
+    .evolution {
+        background-image: url(images/mammoth-1257288_1920.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+
+    .bio {
+        background-image: url(images/heart-2607178_1920.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+
+    .robo {
+        background-image: url(images/billetto-editorial-334686.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+
+    .eco {
+        background-image: url(images/william-bout-264826.jpg);
+        background-size: cover;
+        background-position: center;
+    }
 }
