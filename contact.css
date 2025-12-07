@@ -5,12 +5,11 @@
 
 .contact-section {
     display: flex;
-    
 }
 
 .contact-section form {
     background-color: #243D67;
-    border-radius: 50px;
+    border-radius: 30px;
     padding: 50px 100px;
     display: flex;
     flex-direction: column;
@@ -22,6 +21,7 @@
     width: 100%;
     border-radius: 30px;
     padding-left: 20px;
+    align-self: center;
 }
 
 .contact-section fieldset {
@@ -29,6 +29,7 @@
     border-style: none;
     padding: 0px;
     width: 100%;
+    align-self: center;
 }
 
 .contact-section label {
@@ -49,3 +50,14 @@
 main h3 {
     color: #000000;
 }
+
+@media screen and (max-width: 850px) {
+    .contact-hero {
+        height: 70px;
+    }
+
+    .contact-section form {
+        padding: 15px 20px;
+    }
+}
+
