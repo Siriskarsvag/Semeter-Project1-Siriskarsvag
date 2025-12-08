@@ -90,7 +90,7 @@
     padding-top: 20px;
 }
 
-.afs-info p, .afs-info a {
+.afs-info p {
     width: 90%;
     height: 100%;
     text-align: center;
@@ -105,7 +105,7 @@
     align-items: baseline;
 }
 
-.afs-info:hover p, .afs-info:hover a {
+.afs-info:hover p{
     display: block;
 }
 
@@ -138,7 +138,7 @@
 }
 
 @media screen and (max-width: 850px) {
-    .location-open-section{
+    .location-open-section {
         flex-direction: row;
         gap: 0px;
     }
@@ -180,12 +180,16 @@
         animation: shopAnimate 15s linear 0s infinite;
     }
 
-    .afs-container a, .afs-container p {
+    .afs-container p {
         display: block;
     }
 
     .cta-button {
         width: 130px;
+    }
+
+    .food, .shop {
+        pointer-events: none;
     }
 }
 
