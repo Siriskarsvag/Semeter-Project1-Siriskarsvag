@@ -56,19 +56,19 @@
    } 
 
    .support {
-        background-image: url(images/luke-ellis-craven-400722-small.jpg);
+        background-image: url(../images/luke-ellis-craven-400722-small.jpg);
         background-size: cover;
         background-position: center;
    }
 
    .volunteer {
-        background-image: url(images/roberto-nickson-396152-small.jpg);
+        background-image: url(../images/roberto-nickson-396152-small.jpg);
         background-size: cover;
         background-position: center;
    }
 
    .internship {
-        background-image: url(images/mavis-cw-164128-small.jpg);
+        background-image: url(../images/mavis-cw-164128-small.jpg);
         background-size: cover;
         background-position: center;
    }

@@ -1,5 +1,5 @@
 .exhibitions-hero {
-    background-image: url(images/exhibition-1863344_1920.jpg);
+    background-image: url(../images/exhibition-1863344_1920.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -67,37 +67,37 @@
     }
 
     .energtica {
-        background-image: url(images/scientific-2040795_1280.jpg);
+        background-image: url(../images/scientific-2040795_1280.jpg);
         background-size: cover;
         background-position: center;
     }
 
     .cosmo {
-        background-image: url(images/celso-405219.jpg);
+        background-image: url(../images/celso-405219.jpg);
         background-size: cover;
         background-position: center;
     }
 
     .evolution {
-        background-image: url(images/mammoth-1257288_1920.jpg);
+        background-image: url(../images/mammoth-1257288_1920.jpg);
         background-size: cover;
         background-position: center;
     }
 
     .bio {
-        background-image: url(images/heart-2607178_1920.jpg);
+        background-image: url(../images/heart-2607178_1920.jpg);
         background-size: cover;
         background-position: center;
     }
 
     .robo {
-        background-image: url(images/billetto-editorial-334686.jpg);
+        background-image: url(../images/billetto-editorial-334686.jpg);
         background-size: cover;
         background-position: center;
     }
 
     .eco {
-        background-image: url(images/william-bout-264826.jpg);
+        background-image: url(../images/william-bout-264826.jpg);
         background-size: cover;
         background-position: center;
     }

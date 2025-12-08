@@ -1,5 +1,5 @@
 .home-hero {
-    background-image: url(images/lab-512503_1920.jpg);
+    background-image: url(../images/lab-512503_1920.jpg);
     background-size: cover;
     background-position: center;
     align-items: center;
@@ -136,15 +136,15 @@
 }
 
 @keyframes eventAnimate {
-    0%, 33% {background-image: url(images/scientific-2040795_1280.jpg);
+    0%, 33% {background-image: url(../images/scientific-2040795_1280.jpg);
         background-size: cover;
         background-position: center;
     }
-    34%, 66% {background-image: url(images/andrew-ruiz-348421.jpg); 
+    34%, 66% {background-image: url(../images/andrew-ruiz-348421.jpg); 
         background-size: cover;
         background-position: top;
     }
-    67%, 100% {background-image: url(images/marek-piwnicki-iwabZE-qN_U-unsplash.jpg);
+    67%, 100% {background-image: url(../images/marek-piwnicki-iwabZE-qN_U-unsplash.jpg);
         background-size: cover;
         background-position: top;
     }

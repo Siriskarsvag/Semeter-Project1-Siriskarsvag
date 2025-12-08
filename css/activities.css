@@ -1,5 +1,5 @@
 .activities-hero {
-    background-image: url(images/learn-2405206_1920.jpg);
+    background-image: url(../images/learn-2405206_1920.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -24,25 +24,25 @@
 }
 
 .night-museum {
-    background-image: url(images/toa-heftiba-412579.jpg);
+    background-image: url(../images/toa-heftiba-412579.jpg);
     background-size: cover;
     background-position: center;
 }
 
 .professor {
-    background-image: url(images/andrew-ruiz-348421-small.jpg);
+    background-image: url(../images/andrew-ruiz-348421-small.jpg);
     background-size: cover;
     background-position: center;
 }
 
 .holiday {
-    background-image: url(images/marek-piwnicki-iwabZE-qN_U-unsplash.jpg);
+    background-image: url(../images/marek-piwnicki-iwabZE-qN_U-unsplash.jpg);
     background-size: cover;
     background-position: center;
 }
 
 .young-stars {
-    background-image: url(images/samuel-zeller-158996.jpg);
+    background-image: url(../images/samuel-zeller-158996.jpg);
     background-size: cover;
     background-position: center;
 }
