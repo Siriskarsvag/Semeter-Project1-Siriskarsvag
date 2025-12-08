@@ -169,15 +169,15 @@
     }
 
     .activity {
-        animation: activityAnimate 15s linear 0s infinite;
+        animation: activityAnimate 30s linear 0s infinite;
     }
 
     .food {
-        animation: foodAnimate 15s linear 0s infinite;
+        animation: foodAnimate 30s linear 0s infinite;
     }
 
     .shop {
-        animation: shopAnimate 15s linear 0s infinite;
+        animation: shopAnimate 30s linear 0s infinite;
     }
 
     .afs-container p {
