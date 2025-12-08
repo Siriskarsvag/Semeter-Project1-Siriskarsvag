@@ -80,6 +80,7 @@
     border-radius: 100px;
     align-items: center;
     background-color: #00000070;
+    justify-content: space-between;
 }
 
 .afs-info h3 {
@@ -90,10 +91,18 @@
 }
 
 .afs-info p, .afs-info a {
-    width: 100%;
+    width: 90%;
     height: 100%;
     text-align: center;
     display: none;
+}
+
+.cta-button a {
+    display: block;
+}
+
+.cta-button {
+    align-items: baseline;
 }
 
 .afs-info:hover p, .afs-info:hover a {
@@ -147,19 +156,53 @@
         border-radius: 0px 100px 100px 0px;
     }
 
-    .afs-container {
+    .activities-food-shop-section {
+        position: relative;
         height: 180px;
+        flex-direction: column;
+    }
+
+    .afs-container {
+        position: absolute;
+        inset: 0;
+        height: auto;
+    }
+
+    .activity {
+        animation: activityAnimate 15s linear 0s infinite;
     }
 
     .food {
-        display: none;
+        animation: foodAnimate 15s linear 0s infinite;
     }
 
     .shop {
-     display: none;   
+        animation: shopAnimate 15s linear 0s infinite;
     }
 
     .afs-container a, .afs-container p {
         display: block;
     }
+
+    .cta-button {
+        width: 130px;
+    }
+}
+
+@keyframes activityAnimate {
+    0%, 33% {opacity: 1;}
+   34%, 66% {opacity: 0;}
+   67%, 100% {opacity: 0;}
+}
+
+@keyframes foodAnimate {
+    0%, 33% {opacity: 0;}
+   34%, 66% {opacity: 1;}
+   67%, 100% {opacity: 0;}
+}
+
+@keyframes shopAnimate {
+    0%, 33% {opacity: 0;}
+   34%, 66% {opacity: 0;}
+   67%, 100% {opacity: 1;}
 }
