@@ -74,8 +74,9 @@
    }
 
    .involved-info {
-        background-color: #00000050;
+        background-color: #00000080;
         height: 280px;
+        padding: 20px 35px;
         justify-content: space-around;
    }
 

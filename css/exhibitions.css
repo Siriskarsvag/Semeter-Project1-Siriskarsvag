@@ -7,7 +7,7 @@
 .exhibitions-section {
     width: 100%;
     height: auto;
-   border-radius: 30px;
+    border-radius: 30px;
     display: flex;
     flex-direction: row;
     gap: 10px;
@@ -51,7 +51,7 @@
 
     .exhibitions-section {
         gap: 0px;
-        height: 200px;
+        height: 280px;
     }
 
     .exhibition-info {
