@@ -59,5 +59,10 @@ main h3 {
     .contact-section form {
         padding: 15px 20px;
     }
+
+    .contact-section h3 {
+        padding: 0% 10%;
+        text-align: center;
+    }
 }
 
