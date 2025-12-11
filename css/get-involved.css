@@ -78,6 +78,7 @@
         height: 280px;
         padding: 30px 35px 10px 35px;
         justify-content: space-around;
+        text-shadow: 2px 2px black;
    }
 
    .get-involved-hero {

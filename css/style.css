@@ -215,7 +215,7 @@ p {
 .hero-section h1, .hero-section h2{
     text-align: center;
     background-color: #00000030;
-    height: 360px;
+    height: 100%;
     color: #FFFFFF;
     text-shadow: 2px 2px #000000;
 }

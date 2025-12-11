@@ -64,6 +64,7 @@
 
     .exhibition-info p, .exhibition-info h3 {
         padding: 10px 20px;
+        text-shadow: 2px 2px black;
     }
 
     .energtica {
