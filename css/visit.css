@@ -79,7 +79,7 @@
     height: 100%;
     border-radius: 100px;
     align-items: center;
-    background-color: #00000070;
+    background-color: #00000080;
     justify-content: space-between;
 }
 
@@ -95,6 +95,7 @@
     height: 100%;
     text-align: center;
     display: none;
+    text-shadow: 2px 2px black;
 }
 
 .cta-button a {
@@ -114,7 +115,7 @@
 }
 
 .activity {
-    background-image: url(../images/scientific-2040795_1280-phone.jpg);
+    background-image: url(../images/toa-heftiba-412579.jpg);
     background-size: cover;
     background-position: center;
     display: flex;
