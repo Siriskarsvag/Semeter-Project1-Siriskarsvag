@@ -41,7 +41,7 @@ git clone [https://github.com/Siriskarsvag/Semeter-Project1-Siriskarsvag]
 Open the project using Live server
 
 ## Live Site
-https://siriskarsvag.github.io/Semeter-Project1-Siriskarsvag/contact-page.html
+https://siriskarsvag.github.io/Semeter-Project1-Siriskarsvag/
 
 ## Repository
 https://github.com/Siriskarsvag/Semeter-Project1-Siriskarsvag
