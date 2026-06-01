@@ -29,7 +29,7 @@ The webpage featured:
 1. Clone the repo:
 
 ```bash
-git clone [https://github.com/Siriskarsvag/html-css-skarsvaag]
+git clone [https://github.com/Siriskarsvag/Semeter-Project1-Siriskarsvag]
 ```
 
 2. Open Project in VS Code
