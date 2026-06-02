@@ -1,5 +1,7 @@
 # Semester Project 1 - Community Science Museum
 
+<img width="1917" height="886" alt="SemesterProject1" src="https://github.com/user-attachments/assets/a024733d-84cd-4c61-b9e3-bd91e3737596" />
+
 Semester project for AW25. Project was to build an informational online page for a local scienece museum. 
 
 ## Description
