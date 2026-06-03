@@ -191,6 +191,7 @@ p {
 .cta-button:hover {
     width: 225px;
     font-size: 30px;
+    cursor: pointer;
 }
 
 .cta-button a {

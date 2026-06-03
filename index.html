@@ -1,96 +1,158 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-    <head>
-        <title>Community Science Museum | Homepage</title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="author" content="Siri Skarsvåg">
-        <meta name="description" content="Welcome to the Community Science Museum">
-        <link href="css/style.css" rel="stylesheet">
-        <link href="css/homepage.css" rel="stylesheet">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Zilla+Slab:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
-    </head>
-    <body>
-        <header>
-            <input type="checkbox" id="hamburger-menu"/>
-            <label for="hamburger-menu"> <img src="images/icons/rectangle-list_10742286.png" alt="hamburgermenu icons"/> </label>
-            <div class="logo">
-                <a href="index.html"><img src="images/open-science-735787-transper.png" alt="Museum Logo - green atom"/></a>
+  <head>
+    <title>Community Science Museum | Homepage</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Siri Skarsvåg" />
+    <meta
+      name="description"
+      content="Welcome to the Community Science Museum"
+    />
+    <link href="css/style.css" rel="stylesheet" />
+    <link href="css/homepage.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Zilla+Slab:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <script src="main.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <input type="checkbox" id="hamburger-menu" />
+      <label for="hamburger-menu">
+        <img
+          src="images/icons/rectangle-list_10742286.png"
+          alt="hamburgermenu icons"
+        />
+      </label>
+      <div class="logo">
+        <a href="index.html"
+          ><img
+            src="images/open-science-735787-transper.png"
+            alt="Museum Logo - green atom"
+        /></a>
+      </div>
+      <nav>
+        <a href="visit-page.html">About Us</a>
+        <a href="exhibitions-page.html">Exhibitions</a>
+        <a href="activities-page.html">Activities</a>
+        <a href="get-involved-page.html">Get Involved</a>
+        <a href="contact-page.html">Contact Us</a>
+      </nav>
+    </header>
+    <main>
+      <section class="hero-section home-hero">
+        <h1>Community Science Museum</h1>
+        <h2>-Explore together-</h2>
+      </section>
+      <section class="main-container">
+        <h3>Upcoming Events</h3>
+        <div class="event-section">
+          <button id="prevBtn">←</button>
+          <div class="event-cards">
+            <h2 id="event-title"></h2>
+          </div>
+          <button id="nextBtn">→</button>
+        </div>
+        <button id="viewAllBtn" class="cta-button">
+          Read more about our events
+        </button>
+        <section class="explorers-section">
+          <h3>For Our Explorers</h3>
+          <div class="explorer-cards">
+            <img
+              src="images/reading-2762010_1280-compressed.jpg"
+              alt="Child reading a book"
+            />
+            <div class="explorer-info">
+              <h4>Children</h4>
+              <p>
+                Are you a young person looking to learn more about science? Come
+                on down to our museum, there’s plenty to see and do.<br />
+                You can learn about Newtonian physics from our bumper swing, or
+                why not travel back in time and meet our resident Woolly
+                Mammoth? Our exhibits are designed to be accessible for
+                interested minds, so make sure you come ready to learn and
+                explore.<br />
+                We also have the Young Stars club which meets once a week on a
+                Saturday between 10:00 and 13:00 where you’ll get to explore and
+                experiment with our team of experts. During the school holidays
+                we run special holiday clubs where you can join other children
+                your age to go on a journey of discovery. Each holiday we pick a
+                new theme to explore. To find out more about the holiday club
+                and how you can join, send us a message.
+              </p>
             </div>
-            <nav>
-                <a href="visit-page.html">About Us</a>
-                <a href="exhibitions-page.html">Exhibitions</a>
-                <a href="activities-page.html">Activities</a>
-                <a href="get-involved-page.html">Get Involved</a>
-                <a href="contact-page.html">Contact Us</a>
-            </nav>
-        </header>
-        <main>
-            <section class="hero-section home-hero">
-                <h1>Community Science Museum</h1>
-                <h2>-Explore together-</h2>
-            </section>
-            <section class="main-container">
-                <section class="event-section">
-                    <h3>Upcoming Events</h3>
-                    <div class="event-cards">
-                        <h2 class="event1">Exclusive Energica Exhibition</h2>
-                        <h2 class="event2">Visiting Professor in Aeronautics</h2>
-                        <h2 class="event3">Holidays Club - Exploring The North Star</h2>
-                    </div>
-                </section>
-                <section class="explorers-section">
-                    <h3>For Our Explorers</h3>
-                    <div class="explorer-cards">
-                        <img src="images/reading-2762010_1280-compressed.jpg" alt="Child reading a book"/>
-                        <div class="explorer-info">
-                            <h4>Children</h4>
-                            <p>Are you a young person looking to learn more about science? Come on down to our museum, there’s plenty to see and do.<br> You can learn about Newtonian physics from our bumper swing, or why not travel back in time and meet our resident Woolly Mammoth? Our exhibits are designed to be accessible for interested minds, so make sure you come ready to learn and explore.<br> We also have the Young Stars club which meets once a week on a Saturday between 10:00 and 13:00 where you’ll get to explore and experiment with our team of experts. During the school holidays we run special holiday clubs where you can join other children your age to go on a journey of discovery. Each holiday we pick a new theme to explore. To find out more about the holiday club and how you can join, send us a message.</p>
-                        </div>
-                        <div class="cta-button">
-                            <a href="activities-page.html">View Activities</a>
-                        </div>
-                    </div>
-                    <div class="explorer-cards">
-                        <img src="images/teacher-2816112.jpg" alt ="Science teacher waving"/>
-                        <div class="explorer-info">
-                            <h4>Teachers</h4>
-                            <p>As a community-driven museum, we want to work with schools to create places of learning and exploring. Our team are on hand to give your students guided tours of the museum, teach them in our learning laboratory, and provide great video presentations that will excite and inspire them. <br>
-                            Please get in touch with us here to find out more about our facilities and to arrange a time to bring your students through for a visit.</p>
-                        </div>
-                        <div class="cta-button">
-                            <a href="contact-page.html">Contact Us</a>
-                        </div>
-                    </div>
-                    <div class="explorer-cards">
-                        <img src="images/people-219985_1280.jpg" alt="man looking in to a microscope"/>
-                        <div class="explorer-info">
-                            <h4>Researchers</h4>
-                            <p>Are you looking to get involved with our team of researchers and academics? Our museum offers various ways for you to use our resources and contribute towards them. We have online records, laboratory space, and a working relationship with a number of universities around the country.</p>
-                        </div>
-                        <div class="cta-button">
-                            <a href="get-involved-page.html">Get Involved</a>
-                        </div>
-                    </div>
-                </section>
-            </section>
-        </main>
-        <footer>
-            <h5>Community Science Museum</h5>
-            <section class="footer-content">
-                <div class="footer-info">
-                    <h6>Opening Hours</h6>
-                    <p> Monday: Closed<br> Tuesday: 10:00 – 16:00<br>Wednesday: 10:00 – 16:00<br> Thursday: 10:00 – 16:00<br>Friday: 10:00 – 19:00<br>Saturday: 9:00 – 16:00<br>Sunday: 9:00 – 13:00</p>
-                </div>
-                <div class="footer-info">
-                    <h6>Visiting Address</h6>
-                    <p>Rådhusgata 6<br>7130 Brekstad</p>
-                    <h6>Phone number</h6>
-                    <p>+47 923 32 696</p>
-                </div>
-            </section>
-        </footer>
-    </body>
+            <div class="cta-button">
+              <a href="activities-page.html">View Activities</a>
+            </div>
+          </div>
+          <div class="explorer-cards">
+            <img
+              src="images/teacher-2816112.jpg"
+              alt="Science teacher waving"
+            />
+            <div class="explorer-info">
+              <h4>Teachers</h4>
+              <p>
+                As a community-driven museum, we want to work with schools to
+                create places of learning and exploring. Our team are on hand to
+                give your students guided tours of the museum, teach them in our
+                learning laboratory, and provide great video presentations that
+                will excite and inspire them. <br />
+                Please get in touch with us here to find out more about our
+                facilities and to arrange a time to bring your students through
+                for a visit.
+              </p>
+            </div>
+            <div class="cta-button">
+              <a href="contact-page.html">Contact Us</a>
+            </div>
+          </div>
+          <div class="explorer-cards">
+            <img
+              src="images/people-219985_1280.jpg"
+              alt="man looking in to a microscope"
+            />
+            <div class="explorer-info">
+              <h4>Researchers</h4>
+              <p>
+                Are you looking to get involved with our team of researchers and
+                academics? Our museum offers various ways for you to use our
+                resources and contribute towards them. We have online records,
+                laboratory space, and a working relationship with a number of
+                universities around the country.
+              </p>
+            </div>
+            <div class="cta-button">
+              <a href="get-involved-page.html">Get Involved</a>
+            </div>
+          </div>
+        </section>
+      </section>
+    </main>
+    <footer>
+      <h5>Community Science Museum</h5>
+      <section class="footer-content">
+        <div class="footer-info">
+          <h6>Opening Hours</h6>
+          <p>
+            Monday: Closed<br />
+            Tuesday: 10:00 – 16:00<br />Wednesday: 10:00 – 16:00<br />
+            Thursday: 10:00 – 16:00<br />Friday: 10:00 – 19:00<br />Saturday:
+            9:00 – 16:00<br />Sunday: 9:00 – 13:00
+          </p>
+        </div>
+        <div class="footer-info">
+          <h6>Visiting Address</h6>
+          <p>Rådhusgata 6<br />7130 Brekstad</p>
+          <h6>Phone number</h6>
+          <p>+47 923 32 696</p>
+        </div>
+      </section>
+    </footer>
+  </body>
 </html>
