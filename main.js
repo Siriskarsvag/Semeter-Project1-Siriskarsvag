@@ -1,15 +1,15 @@
 const events = [
     {
         title: "Exclusive Energica Exhibition",
-        image: "/images/scientific-2040795_1280.jpg",
+        image: "images/scientific-2040795_1280.jpg",
     },
     {
         title: "Visiting Professor in Aeronautics",
-        image: "/images/andrew-ruiz-348421.jpg",
+        image: "images/andrew-ruiz-348421.jpg",
     },
     {
         title: "Holidays Club - Explore the North Star",
-        image: "/images/marek-piwnicki-iwabZE-qN_U-unsplash.jpg"
+        image: "images/marek-piwnicki-iwabZE-qN_U-unsplash.jpg"
     }
 ];
 
